@@ -1,0 +1,7 @@
+C:\Users\Professional\Desktop\modul\bin\Debug\modul.exe.config
+C:\Users\Professional\Desktop\modul\bin\Debug\modul.exe
+C:\Users\Professional\Desktop\modul\bin\Debug\modul.pdb
+C:\Users\Professional\Desktop\modul\obj\Debug\modul.csproj.AssemblyReference.cache
+C:\Users\Professional\Desktop\modul\obj\Debug\modul.csproj.CoreCompileInputs.cache
+C:\Users\Professional\Desktop\modul\obj\Debug\modul.exe
+C:\Users\Professional\Desktop\modul\obj\Debug\modul.pdb
