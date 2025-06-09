@@ -1,0 +1,14 @@
+D:\LB4\Modul\Modul\bin\Debug\net9.0\Modul.exe
+D:\LB4\Modul\Modul\bin\Debug\net9.0\Modul.deps.json
+D:\LB4\Modul\Modul\bin\Debug\net9.0\Modul.runtimeconfig.json
+D:\LB4\Modul\Modul\bin\Debug\net9.0\Modul.dll
+D:\LB4\Modul\Modul\bin\Debug\net9.0\Modul.pdb
+D:\LB4\Modul\Modul\obj\Debug\net9.0\Modul.GeneratedMSBuildEditorConfig.editorconfig
+D:\LB4\Modul\Modul\obj\Debug\net9.0\Modul.AssemblyInfoInputs.cache
+D:\LB4\Modul\Modul\obj\Debug\net9.0\Modul.AssemblyInfo.cs
+D:\LB4\Modul\Modul\obj\Debug\net9.0\Modul.csproj.CoreCompileInputs.cache
+D:\LB4\Modul\Modul\obj\Debug\net9.0\Modul.dll
+D:\LB4\Modul\Modul\obj\Debug\net9.0\refint\Modul.dll
+D:\LB4\Modul\Modul\obj\Debug\net9.0\Modul.pdb
+D:\LB4\Modul\Modul\obj\Debug\net9.0\Modul.genruntimeconfig.cache
+D:\LB4\Modul\Modul\obj\Debug\net9.0\ref\Modul.dll
