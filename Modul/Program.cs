@@ -26,8 +26,17 @@ class Program
         student2.PrintCourseInfo();
 
         var students = new Student[] {student1, student2 };
+
+        IStudentRepository repo = new JsonStudentRepository();
+        repo.Save(students,"Save.json");
         
-        student1.Save(students,"Save.json");
+        var loaded = repo.Load("Save.json");
+
+        Console.WriteLine("Завантаженні студенти: ");
+        foreach (var student in loaded)
+        {
+            student.PrintCourseInfo();
+        }
 
         Console.WriteLine($"Однакові? {student1.Equals(student2)}");
         Console.ReadKey();

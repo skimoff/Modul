@@ -2,7 +2,7 @@
 
 namespace Modul;
 
-public class Student:IStudentRepository
+public class Student
 {
     public string Name { get; } = "Noname";
     public string Surname { get; set; } = "Noname";
@@ -69,24 +69,5 @@ public class Student:IStudentRepository
     public override string ToString()
     {
         return $"Ім'я: {Name}\nФамілія: {Surname}\nКурс: {Courses}";
-    }
-
-    public void Save(Student[] students, string filePath)
-    {
-        var options = new JsonSerializerOptions
-        {
-            WriteIndented = true
-        };
-
-        string json = JsonSerializer.Serialize(students, options);
-        File.WriteAllText(filePath, json);
-    }
-
-    public Student[] Load(string filePath)
-    {
-        if (!File.Exists(filePath)) return Array.Empty<Student>();
-
-        string json = File.ReadAllText(filePath);
-        return JsonSerializer.Deserialize<Student[]>(json) ?? Array.Empty<Student>();
     }
 }
