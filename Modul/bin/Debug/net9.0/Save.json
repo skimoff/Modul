@@ -1,0 +1,50 @@
+[
+  {
+    "Name": "John",
+    "Surname": "Doe",
+    "Courses": [
+      {
+        "NameOfCourse": "C# \u041E\u0441\u043D\u043E\u0432\u0438",
+        "NumberOfHours": 40,
+        "GetCertificate": true,
+        "DelayInDays": 0
+      },
+      {
+        "NameOfCourse": "\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B",
+        "NumberOfHours": 60,
+        "GetCertificate": true,
+        "DelayInDays": 5
+      },
+      {
+        "NameOfCourse": "UI/UX \u0414\u0438\u0437\u0430\u0439\u043D",
+        "NumberOfHours": 30,
+        "GetCertificate": false,
+        "DelayInDays": 2
+      },
+      {
+        "NameOfCourse": "\u0421\u002B\u002B \u041E\u0441\u043D\u043E\u0432\u0438",
+        "NumberOfHours": 60,
+        "GetCertificate": true,
+        "DelayInDays": 1
+      }
+    ]
+  },
+  {
+    "Name": "Doe",
+    "Surname": "John",
+    "Courses": [
+      {
+        "NameOfCourse": "C# \u041E\u0441\u043D\u043E\u0432\u0438",
+        "NumberOfHours": 40,
+        "GetCertificate": true,
+        "DelayInDays": 0
+      },
+      {
+        "NameOfCourse": "\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B",
+        "NumberOfHours": 60,
+        "GetCertificate": true,
+        "DelayInDays": 5
+      }
+    ]
+  }
+]

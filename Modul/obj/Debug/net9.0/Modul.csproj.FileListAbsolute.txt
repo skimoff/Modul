@@ -12,3 +12,4 @@ D:\LB4\Modul\Modul\obj\Debug\net9.0\refint\Modul.dll
 D:\LB4\Modul\Modul\obj\Debug\net9.0\Modul.pdb
 D:\LB4\Modul\Modul\obj\Debug\net9.0\Modul.genruntimeconfig.cache
 D:\LB4\Modul\Modul\obj\Debug\net9.0\ref\Modul.dll
+D:\LB4\Modul\Modul\obj\Debug\net9.0\Modul.sourcelink.json

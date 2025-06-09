@@ -25,6 +25,10 @@ class Program
         student1.PrintCourseInfo();
         student2.PrintCourseInfo();
 
+        var students = new Student[] {student1, student2 };
+        
+        student1.Save(students,"Save.json");
+
         Console.WriteLine($"Однакові? {student1.Equals(student2)}");
         Console.ReadKey();
     }
