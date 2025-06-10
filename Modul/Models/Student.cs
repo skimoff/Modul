@@ -22,7 +22,7 @@ public class Student
         {
             if (c.Equals(course))
             {
-                Console.WriteLine($"Курс \"{course.NameOfCourse}\" вже додвн для {Name}.");
+                Console.WriteLine($"Курс \"{course.NameOfCourse}\" вже додaн для {Name}.");
                 return;
             }
         }
@@ -43,7 +43,7 @@ public class Student
             Console.WriteLine($"- Курс: {course.NameOfCourse}");
             Console.WriteLine($"  Годин: {course.NumberOfHours}");
             Console.WriteLine($"  Сертифікат: {(course.GetCertificate ? "Так" : "Ні")}");
-            Console.WriteLine($"  Статус: {course.GetStatus()}");
+            Console.WriteLine($"  Статус: {course.Status}");
         }
         Console.WriteLine();
     }

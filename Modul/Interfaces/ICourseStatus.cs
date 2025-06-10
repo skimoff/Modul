@@ -2,5 +2,5 @@
 
 public interface ICourseStatus
 {
-    public string GetStatus();
+    public CourseStatus GetStatus();
 }
